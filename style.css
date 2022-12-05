@@ -56,3 +56,18 @@ nav .navigation a {
 [class$=glegoo] {
     font-family: 'Glegoo', serif;
 }
+
+p {
+    font-size: 125%;
+}
+
+h2 {
+    font-family: 'Glegoo', serif;
+}
+
+footer { 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
