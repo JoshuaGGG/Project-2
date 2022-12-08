@@ -8,13 +8,16 @@ body {
 img{
     width: 100%;
 }
+
 .weblink{
     margin: 5px;
 }
+
 .weblink:hover{
     color: #6C72FF;
     font-weight: bold;
 }
+
 .navigation > h1 {
     font-family: 'Glegoo', serif;
     font-size: 2rem;
@@ -37,18 +40,21 @@ img{
 header {
     width: 100%;
 }
+
 nav {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .navigation {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 nav .navigation a {
     text-decoration: none;
     color: #063E8F;
@@ -57,6 +63,7 @@ nav .navigation a {
     font-size: 2rem;
     font-family: 'Glegoo', serif;
 }
+
 [class$=glegoo] {
     font-family: 'Glegoo', serif;
 }
@@ -76,6 +83,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 h1{
     width: 100%;
     display: flex;
@@ -124,4 +132,15 @@ h1{
 
 .divider {
     margin-top: 80px;
+}
+
+h3 {
+    width: 50%;
+    text-align: center;
+}
+
+h4 {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
 }
