@@ -7,9 +7,27 @@ body {
 .resources a{
     color: #E4ECEE;
     display: flex;
-    
+    flex-wrap: wrap;
+    text-decoration: none;
 }
-
+.footer1:hover{
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.footer1{
+    margin-bottom: 5px;
+    justify-content: center;
+}
+.footer2{
+    margin-bottom: 5px;
+    justify-content: center;
+}
+.footer2:hover{
+    font-weight: bold;
+    font-size:15px;
+    text-decoration: underline;
+}
 .weblink{
     margin: 5px;
 }
@@ -17,6 +35,8 @@ body {
 .weblink:hover{
     color: #6C72FF;
     font-weight: bold;
+    font-size: 33px;
+    text-decoration: underline;
 }
 
 .navigation > h1 {
@@ -32,11 +52,6 @@ body {
     padding-bottom: 20px;
 }
 
-.hero {
-    width: 100%;
-    height: 80vh;
-    background: url(/images/hero.jpg) center ;
-}
 
 header {
     width: 100%;
@@ -70,19 +85,19 @@ nav .navigation a {
 }
 
 p {
-    font-size: 125%;
+    font-size: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 h2 {
     font-family: 'Glegoo', serif;
-    text-align: center;
 }
 
 footer { 
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: #E4ECEE;
     background-color: #063E8F;
 }
@@ -92,18 +107,6 @@ h1{
     display: flex;
     justify-content: center;
 }
-
-.hero-half {
-    display: flex;
-    width: 100%;
-    height: 40vh;
-}
-
-.half-image{
-    width: 32.9%;
-    
-}
-
 .text-common {
     width: 50%;
 }
@@ -120,13 +123,13 @@ h1{
 }
 
 .split-text {
-    width: 58%;
+    width: 60%;
     padding: 1%;
-    font-size: 150%;
+    font-size: 100%;
 }
 
 .split-image {
-    width: 40%;
+width: 5px;
 }
 
 .divider {
@@ -136,6 +139,7 @@ h1{
 h3 {
     width: 50%;
     text-align: center;
+    font-size: 24px;
 }
 
 h4 {
@@ -151,14 +155,25 @@ h4 {
 }
 .button a{
    color: #E4ECEE;
-   border-radius: 40px;
    padding: 50px;
-
+   text-decoration: none;
 }
 .button{
-    background-color: #6C72FF;
+    background-color: #094157;
     width: 30%;
     display: flex;
     justify-content: center;
     margin: 40px;
+    border-radius: 40px;
 }
+.button:hover{
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.half-image{
+    width: 20px;
+    height: 10px;
+}
+
+
