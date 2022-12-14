@@ -9,25 +9,23 @@ body {
     text-decoration: none;
 }
 .resources{
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
 }
 .footer1:hover{
-    font-weight: bold;
     text-decoration: underline;
 }
 .footer1{
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 5px;
     justify-content: center;
 }
 .footer2{
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 5px;
 }
 
 .footer2:hover{
-    font-weight: bold;
     text-decoration: underline;
 }
 .weblink{
@@ -87,7 +85,7 @@ nav .navigation a {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
@@ -100,7 +98,7 @@ footer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     color: #E4ECEE;
     background-color: #063E8F;
 }
@@ -123,6 +121,7 @@ h1{
     padding: 1%;
     animation: slide-up 1.5s;
 }
+
 @keyframes slide-up{
     from{
         opacity: 0.2;
@@ -162,34 +161,32 @@ h4 {
 }
 .button{
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)), url(images/League\ Game.jpg);
-    width: 30%;
+    width: 43%;
     display: flex;
     justify-content: center;
-    margin: 40px;
-    border-radius: 20px;
+    margin: 30px;
+    border-radius: 60px;
     font-size: 150%;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
 }
 .button:hover{
-    font-weight: bold;
     text-decoration: underline;
 }
 .button2{
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)), url(images/Prevention.jpg);
-    width: 30%;
+    width: 43%;
     display: flex;
     justify-content: center;
-    margin: 40px;
-    border-radius: 20px;
+    margin: 30px;
+    border-radius: 60px;
     font-size: 150%;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
 }
 .button2:hover{
-    font-weight: bold;
     text-decoration: underline;
 }
 .button2 a{
